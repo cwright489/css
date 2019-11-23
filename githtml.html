@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>First Build</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <style>
+                .dropdown {
+                  position: absolute;
+                  display: inline-block;
+                  font-family: Verdana;
+                }
+                
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f9f9f9;
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+                  font-family: Verdana;
+                }
+                
+                .dropdown:hover .dropdown-content {
+                  display: block;
+                }
+
+                .dropbtn {
+                  background-color: rgba(247, 0, 0, 0.459);
+                  color: white;
+                  padding: 12px;
+                  font-size: 24px;
+                  border: none;
+                  cursor: pointer;
+                  font-family: Verdana;
+                }
+        
+                .dropdown-content a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+
+                .dropdown-content a:hover {background-color: #f1f1f1}
+
+        </style>
+    
+    </head>
+    <body>
+       <header><img  width="860px" src="img/HEADER.jpeg"></header>
+
+       <div class="container">
+            
+            <section id="main-bio">
+                <h2>Chance Wright</h2>
+        
+                <img id="bio-image" src="https://placehold.it/200x200" alt="Chance Wright">
+        
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum orci quis lectus faucibus iaculis. Mauris ac euismod enim, et pretium tortor. Donec elit augue, pharetra molestie venenatis ut, sagittis non augue. Phasellus eleifend eros felis, sit amet congue ante fringilla nec. Donec accumsan, tortor sed cursus tristique, felis urna lacinia ligula, non mollis diam lectus vitae odio. Donec varius suscipit dolor, vitae molestie massa bibendum vitae.</p>
+            </section>
+            <section id="contact-info"></section>            
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <button class="dropbtn">Contact</button>
+                    </div>
+                    <div class="dropdown-content">
+                    <a href="mailto:cwright489@gmail.com"> Email</a>
+                    <a target="_blank" href="https://github.com/cwright489"> Github</a>
+                    <a href="#">Portfolio: <em>Soon</em></a>
+                    </div>
+                
+                </div>
+            </section>
+        
+        
+        
+        </div>
+    </body>
+</html>
